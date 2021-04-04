@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hospital</title>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/09254f53c8.js" crossorigin="anonymous"></script>
+  <style>
+    .table{
+      table-layout: fixed;
+      text-align: left;
+    }
+    .table td{
+      border: 1px solid black;
+      padding-left: 20px;
+    }
+    td:first-child{
+      font-weight: bold;
+    }
+    .btn{
+      color:black;
+    }
+  </style>
+</head>
+<body>
+  <button class="btn btn-outline-secondary ml-5 mt-3 hBack" type="button"> 
+    <i class="fas fa-arrow-circle-left"></i>
+     Back </button>
+    <div class="container">
+      <h1 class="text-center mt-1"><b>TE DHENAT E PUNONJESIT</b></h1>
+        <table class="table table-bordered mt-5">
+          <tr>
+            <td>Emri</td>
+            <td id='EMRI'></td>
+          </tr>
+          <tr>
+            <td>MBIEMRI</td>
+            <td id='MBIEMRI'></td>
+          </tr>
+          <tr>
+            <td>POZICIONI</td>
+            <td id='POZICIONI'></td>
+          </tr>
+          <tr>
+            <td>PAGA PER ORE(LEK/ORE)</td>
+            <td id='PAGE_ORE'></td>
+          </tr>
+          <tr>
+            <td>DATA E RREGJISTRIMIT</td>
+            <td id='DATE_RREGJ'></td>
+          </tr>
+          <tr>
+            <td>ORET E PUNES</td>
+            <td id='ORE_PUNE'></td>
+          </tr>
+          <tr>
+            <td>PAGA(LEKE)</td>
+            <td id='PAGA'></td>
+          </tr>
+        </table>
+        <button class="btn btn-outline-secondary px-4" id="Fshi">Fshi</button>
+    </div>
+</body>
+</html>

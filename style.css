@@ -1,0 +1,14 @@
+table td,
+table th {
+  text-align: center;
+  font-size: 20px;
+}
+.table td {
+  border: 1px solid black;
+}
+
+button,
+input {
+  background-color: 888888;
+  box-shadow: 10px 8px 20px rgb(230, 226, 226);
+}
